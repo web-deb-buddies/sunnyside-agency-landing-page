@@ -1,12 +1,12 @@
 body{
   max-width: 100vw;
   margin: 0;
-  box-sizing: border-box;
+  box-sizing: border-box; /*this allows you to add padding to a div without making it bigger than you want it*/
 }
 
 #header{
   background-image: url('../images/desktop/image-header.jpg'); /*this allows me to set a background image */
-  background-size: contain; /*this allows me to make a background image fit the size of a container/div perfectly */
+  background-size: 100%; /*this allows me to size the background image how i like */
   background-repeat: no-repeat; /*when an image is too small for a div, it can repeat and we dont want that, so this causes the image to not repeat */
   width: 100%; /*we want the div with the id of header to fit the full width of its parent tag*/
   height: 700px;
@@ -28,6 +28,14 @@ button{
 .white-btn{
   background-color: white;
   background-color: hsl(0, 0%, 100%);
+}
+
+.heading{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  margin-top: 60px;
+  color: white;
 }
 
 /*everything above here is for the header section ^^ */
