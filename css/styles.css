@@ -1,28 +1,27 @@
 body{
   max-width: 100vw;
-  max-height: 100vh;
   margin: 0;
   box-sizing: border-box;
 }
 
 #header{
-  background-image: url('../images/desktop/image-header.jpg');
-  background-size: contain;
-  background-repeat: no-repeat;
-  width: 100%;
+  background-image: url('../images/desktop/image-header.jpg'); /*this allows me to set a background image */
+  background-size: contain; /*this allows me to make a background image fit the size of a container/div perfectly */
+  background-repeat: no-repeat; /*when an image is too small for a div, it can repeat and we dont want that, so this causes the image to not repeat */
+  width: 100%; /*we want the div with the id of header to fit the full width of its parent tag*/
   height: 700px;
 }
 
 .logo-and-things{
   display: flex;
-  justify-content: space-between;
+  justify-content: space-between; /*puts space between things e.g. divs, images etc... */
   padding: 30px;
 }
 
 button{
   background-color: inherit;
   border: 0;
-  border-radius: 10px;
+  border-radius: 10px; /*makes things (e.g. divs, images) rounder */
   cursor: pointer;
 }
 
