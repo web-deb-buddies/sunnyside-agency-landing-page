@@ -34,8 +34,11 @@ button{
   display: flex;
   justify-content: center;
   align-content: center;
-  margin-top: 60px;
+  margin-top: 15px;
   color: white;
+  font-family: 'Fraunces', serif;
+  font-weight: 900;
+  font-size: 3rem;
 }
 
 /*everything above here is for the header section ^^ */
