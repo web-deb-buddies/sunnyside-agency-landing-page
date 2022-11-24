@@ -22,12 +22,16 @@ button{
   background-color: inherit;
   border: 0;
   border-radius: 10px; /*makes things (e.g. divs, images) rounder */
-  cursor: pointer;
+  cursor: pointer; 
+  margin-right: 20px;
+  color: white;
+  color: hsl(0, 0%, 100%);
 }
 
 .white-btn{
   background-color: white;
   background-color: hsl(0, 0%, 100%);
+  color: hsl(212, 27%, 19%);
 }
 
 .heading{
@@ -36,9 +40,17 @@ button{
   align-content: center;
   margin-top: 15px;
   color: white;
-  font-family: 'Fraunces', serif;
+  font-family: 'Fraunces', sans-serif;
   font-weight: 900;
   font-size: 3rem;
+}
+
+.website-name{
+  cursor: pointer;
+}
+
+.header-button{
+  padding: 10px;
 }
 
 /*everything above here is for the header section ^^ */
