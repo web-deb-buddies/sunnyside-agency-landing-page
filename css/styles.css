@@ -2,6 +2,7 @@ body{
   max-width: 100vw;
   margin: 0;
   box-sizing: border-box; /*this allows you to add padding to a div without making it bigger than you want it*/
+   background-color: #FFFBF8;
 }
 
 #header{
@@ -52,5 +53,60 @@ button{
 .header-button{
   padding: 10px;
 }
-
 /*everything above here is for the header section ^^ */
+ h2{
+    font-family: 'Fraunces', serif;
+    font-weight: 700, 900;
+    color: rgb(189,189,189);
+    letter-spacing: 6px;
+    
+  }
+  /* i did classes to the same content Because The flex-direction work Just in divs elements*/
+  /* So maybe The style part is Little bit complicated */
+ .img-div{
+display: flex;
+justify-content: space-around;
+    weight:65px;
+    height: 65px;
+}
+img{
+display: flex;
+border-radius: 50px;
+
+}
+p{
+display: flex;
+justify-content: space-around;
+margin-left: 140px;
+margin-right: 140px;
+text-align: center;
+}
+.p{
+display: flex;
+flex-direction: row;
+font-family: 'Barlow', sans-serif;
+font-weight: 600;
+}
+h3{
+display: flex;
+font-family: 'Fraunces', serif;
+color: #2B3745;
+}
+.h3{
+font-weight: 900px;
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+}
+h5{
+display: flex;
+margin-top: -11px;
+font-family: 'Barlow', sans-serif;
+color: rgb(189,189,189);
+}
+.h5{
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+}
+/* everything above is for people section */
