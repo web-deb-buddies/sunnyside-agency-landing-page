@@ -135,7 +135,7 @@ padding: 40px 20px;
 display: flex;
 }
 
-@media screen and (max-width: 1400px) {
+@media screen and (max-width: 600px) {
   .Cards{
     display: flex;
     flex-direction: column;
