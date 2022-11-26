@@ -113,4 +113,9 @@ button:hover{
   color: black;
   background-color: white;
 }
+
+figure{
+padding: 40px 20px;
+ box-sizing: border-box;
+}
 /* everything above is for people section */
