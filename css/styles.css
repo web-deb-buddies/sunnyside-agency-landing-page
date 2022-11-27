@@ -140,5 +140,8 @@ display: flex;
     display: flex;
     flex-direction: column;
   }
+    p{
+    margin: auto;
+  }
 }
 /* everything above is for people section */
